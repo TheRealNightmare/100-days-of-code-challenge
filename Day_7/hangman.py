@@ -33,10 +33,15 @@ while not end_of_game:
     if "_" not in display:
         end_of_game = True
         print("You win!")
+        
+
+    print(stages[lives])
 
     if end_of_game == False:
-        print(stages[lives])
         print(display)
         print("\n")
     else:
         pass
+
+    
+
